@@ -1,2 +1,7 @@
-# EJS-Express-Template
-Just a simple starter template for express apps, basic routes and views using EJS, home, error, and 404.
+# Tech Sage Ogden / Wides Portfolio
+
+This is my portfolio and primary client facing site. This project was built as a Node/Express app using ejs views for the frontend.
+
+## WIP
+
+This is still under construction, please allow time to finish

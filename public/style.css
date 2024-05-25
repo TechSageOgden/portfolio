@@ -8,6 +8,7 @@ body#home {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
 div#img-div {
     margin-top: 7vh;
     height: 100vh;
@@ -113,7 +114,7 @@ div#half-circle-effect {
     border-radius: 50%;
     background-color: #222;
     position: absolute;
-    bottom: -79%;
+    bottom: -81%;
     left: -1%;
     z-index: -1;
 }
@@ -148,13 +149,31 @@ section#bio-display h1 {
 
 h2#skills {
     margin-top: 4rem;
-    color: #c55a08;
+    margin-bottom: 4rem;
+    color: #f5dda8;
     background-color: #222;
     font-size: 1.7rem;
 }
 
 p.bio-text {
     font-size: 1.4rem;
+}
+
+div#music-feature {
+    background-color: rgba(12, 48, 12, 0.7);
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+p.quote {
+    font-style: italic;
+    font-weight: 200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.8rem;
+    color: #f5dda8;
+    transform: translateY(-25vh);
+    z-index: 5;
 }
 
 div.img-container {
@@ -168,13 +187,16 @@ div.img-container {
 img.bio-img {
     max-width: 30vw;
     max-height: 30vh;
-    margin: 2px;
+    margin: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 5px 5px 5px #222;
 }
 
 div#cta-container {
+    position: relative;
+    top: 0%;
+    left: 0%;
     height: 100vh;
     width: 100vw;
     display: flex;
