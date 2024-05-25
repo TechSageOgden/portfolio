@@ -1,0 +1,39 @@
+{
+  "name": "color-puzzle",
+  "version": "0.0.1",
+  "description": "prototype build for web/mobile game solving puzzles with colors",
+  "main": "bin/www",
+  "scripts": {
+    "test": "node test.yml",
+    "start": "node bin/www",
+    "dev": "nodemon bin/www",
+    "build": "TBD",
+    "deploy": "TBD",
+    "lint": "eslint .",
+    "depinstall": "npm install --save express mongoose body-parser debug ejs http-errors morgan winston express-fileupload && npm install --save-dev nodemon eslint"
+  },
+  "keywords": [
+    "game",
+    "puzzle",
+    "web",
+    "mobile"
+  ],
+  "author": "Micheal Ogden",
+  "license": "MIT",
+  "dependencies": {
+    "app-root-path": "^3.1.0",
+    "body-parser": "^1.20.2",
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "nodemon": "^3.0.1"
+  }
+}
